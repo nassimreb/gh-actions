@@ -1,0 +1,12 @@
+name: First WorkFlow
+on: workflow_dispatch
+
+jobs:
+  first-job:
+    runs_on: ubuntu-lastet
+    steps:
+      - name: Print greeting
+        run: echo "Hello world" 
+      - name: Print goodbye
+        run: echo "GoodBye"
+      
